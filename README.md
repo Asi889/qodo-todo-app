@@ -25,11 +25,11 @@ Persists to localStorage (no backend)
 
 🧰 Tech Stack
 
-HTML5
+HTML
 
-CSS3
+CSS
 
-Vanilla JavaScript (no frameworks)
+Vanilla JavaScript 
 
 localStorage for persistence
 

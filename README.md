@@ -29,7 +29,7 @@ HTML
 
 CSS
 
-Vanilla JavaScript (no frameworks)
+Vanilla JavaScript 
 
 localStorage for persistence
 

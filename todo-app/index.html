@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>To‑Do List</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app" role="application" aria-label="To‑Do List">
+    <header>
+      <div class="title">
+        <span class="badge">To‑Do</span>
+        <h1 style="margin:0; font-size: 20px">Tasks</h1>
+      </div>
+      <form id="todo-form" class="input-row" autocomplete="off">
+        <input id="todo-input" type="text" placeholder="Add a new task and press Enter" aria-label="New task" />
+        <button class="btn-primary" type="submit" aria-label="Add task">Add</button>
+      </form>
+    </header>
+
+    <main>
+      <ul id="todo-list" aria-live="polite"></ul>
+      <div id="empty" class="empty" hidden>No tasks yet. Add your first one above.</div>
+    </main>
+
+    <footer>
+      <div id="counter" aria-live="polite">0 items</div>
+      <div class="filters" role="tablist" aria-label="Filters">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">All</button>
+        <button class="filter-btn" data-filter="active" role="tab" aria-selected="false">Active</button>
+        <button class="filter-btn" data-filter="completed" role="tab" aria-selected="false">Completed</button>
+      </div>
+      <button id="clear-completed" class="filter-btn clear-btn" type="button">Clear completed</button>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

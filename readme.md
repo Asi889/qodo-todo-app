@@ -25,7 +25,7 @@ Persists to localStorage (no backend)
 
 🧰 Tech Stack
 
-HTMLL
+HTML
 
 CSS
 
